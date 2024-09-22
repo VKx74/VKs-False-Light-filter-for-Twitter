@@ -7,11 +7,11 @@
 Open Chrome and navigate to the Extensions page:
 chrome://extensions/
 
-3.Enable Developer Mode
+3. Enable Developer Mode
 In the top-right corner of the Extensions page, toggle on Developer Mode.
 
 
-4.Load the Unpacked Extension
+4. Load the Unpacked Extension
 
 Click on the Load unpacked button in the top-left corner.
 Select the folder where you downloaded or cloned the repository.
