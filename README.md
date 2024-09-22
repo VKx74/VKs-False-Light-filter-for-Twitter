@@ -1,13 +1,3 @@
-# Demo Box Injector Chrome Extension
-
-This Chrome extension injects a warning box into every post on X.com (formerly Twitter) that includes a heading, subtext, and a blur effect. The extension also includes a "View Post" button that allows users to remove the blur for 17 seconds. Afterward, a cooldown timer of 17 minutes is applied before the button can be clicked again.
-
-## Features
-- A warning box with customizable text that overlays every post.
-- Gaussian blur effect over posts, hiding their content.
-- A "View Post" button to temporarily remove the blur for 17 seconds.
-- 17-minute cooldown after each click, during which the button is disabled.
-- Countdown timers for both the 17-second post view and 17-minute cooldown.
 
 ## Installation Instructions
 
