@@ -1,0 +1,54 @@
+.demo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 1000;
+    text-align: center;
+  }
+  
+  .blur-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* A semi-transparent black background */
+    backdrop-filter: blur(10px); /* Gaussian blur effect */
+    z-index: -1; /* Behind the text */
+  }
+  
+  .demo-heading {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  
+  .demo-subtext {
+    font-size: 16px;
+    padding: 5px 20px;
+  }
+  
+  .demo-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .demo-button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+  }
+  

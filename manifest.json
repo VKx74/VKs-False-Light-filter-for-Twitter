@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "AK filter Injector",
+    "version": "1.0",
+    "description": "Injects a VK filter into all X.com posts.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://x.com/*", "*://twitter.com/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
